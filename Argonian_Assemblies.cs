@@ -30,7 +30,14 @@ namespace Argonian_Assemblies
             Type thisClass = typeof(Argonian_Assemblies);
 
 #if !RWPre1_4
-            new Alien_Patches(harmony); // Patches for allowing custom LifeStageDefs along with patches for other mods
+            try
+            {
+                new Alien_Patches(harmony);
+            }
+            catch (Exception e)
+            {
+                Log.Error(string.Format($"{HarmonyID}: Exception when trying to apply Alien Patches. Ensure that you are using the latest version. If issues persist, please notify the author for the {ModName} with the logs. Thanks!\n{e}"));
+            }
 #endif
         }
     }
