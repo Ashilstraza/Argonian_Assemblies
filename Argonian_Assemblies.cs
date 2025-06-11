@@ -1,4 +1,6 @@
-﻿using Ashs_Alien_Patches;
+﻿#if !RWPre1_4
+using Ashs_Alien_Patches;
+#endif
 using AlienRace;
 using HarmonyLib;
 using System;

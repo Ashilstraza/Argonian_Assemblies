@@ -76,9 +76,7 @@ del "$(TargetDir)*.pdb"</PostBuildEvent>
     </CodeAnalysisRuleSet>
     <CheckForOverflowUnderflow>true</CheckForOverflowUnderflow>
     <Prefer32Bit>false</Prefer32Bit>
-    <PostBuildEvent>del "$(TargetDir)Ash Patch Manager.*"
-copy /Y "$(SolutionDir)References\$(Configuration)\Ash Patch Manager.dll" "$(TargetDir)Ash Patch Manager.dll"
-del "$(TargetDir)*.pdb"</PostBuildEvent>
+    <PostBuildEvent>del "$(TargetDir)Ash Patch Manager.*"</PostBuildEvent>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == '1.2 Release|AnyCPU'">
     <OutputPath>..\..\..\..\Rimworld Mods\LocalMods\Argonians of Blackmarsh\1.2\Assemblies\</OutputPath>
@@ -89,9 +87,7 @@ del "$(TargetDir)*.pdb"</PostBuildEvent>
     <LangVersion>latest</LangVersion>
     <ErrorReport>prompt</ErrorReport>
     <Prefer32Bit>false</Prefer32Bit>
-    <PostBuildEvent>del "$(TargetDir)Ash Patch Manager.*"
-copy /Y "$(SolutionDir)References\$(Configuration)\Ash Patch Manager.dll" "$(TargetDir)Ash Patch Manager.dll"
-del "$(TargetDir)*.pdb"</PostBuildEvent>
+    <PostBuildEvent>del "$(TargetDir)Ash Patch Manager.*"</PostBuildEvent>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == '1.1 Release|AnyCPU'">
     <OutputPath>..\..\..\..\Rimworld Mods\LocalMods\Argonians of Blackmarsh\1.1\Assemblies\</OutputPath>
@@ -102,9 +98,7 @@ del "$(TargetDir)*.pdb"</PostBuildEvent>
     <LangVersion>latest</LangVersion>
     <ErrorReport>prompt</ErrorReport>
     <Prefer32Bit>false</Prefer32Bit>
-    <PostBuildEvent>del "$(TargetDir)Ash Patch Manager.*"
-copy /Y "$(SolutionDir)References\$(Configuration)\Ash Patch Manager.dll" "$(TargetDir)Ash Patch Manager.dll"
-del "$(TargetDir)*.pdb"</PostBuildEvent>
+    <PostBuildEvent>del "$(TargetDir)Ash Patch Manager.*"</PostBuildEvent>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == '1.5 Debug|AnyCPU'">
     <DebugSymbols>true</DebugSymbols>
@@ -146,9 +140,7 @@ copy /Y "$(SolutionDir)References\$(Configuration)\Ash Patch Manager.pdb" "$(Tar
     </CodeAnalysisRuleSet>
     <GenerateSerializationAssemblies>Auto</GenerateSerializationAssemblies>
     <Prefer32Bit>false</Prefer32Bit>
-    <PostBuildEvent>del "$(TargetDir)Ash Patch Manager.*"
-copy /y "$(SolutionDir)References\$(Configuration)\Ash Patch Manager.dll" "$(TargetDir)Ash Patch Manager.dll"
-copy /Y "$(SolutionDir)References\$(Configuration)\Ash Patch Manager.pdb" "$(TargetDir)Ash Patch Manager.pdb"</PostBuildEvent>
+    <PostBuildEvent>del "$(TargetDir)Ash Patch Manager.*"</PostBuildEvent>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == '1.2 Debug|AnyCPU'">
     <DebugSymbols>true</DebugSymbols>
@@ -159,9 +151,7 @@ copy /Y "$(SolutionDir)References\$(Configuration)\Ash Patch Manager.pdb" "$(Tar
     <LangVersion>latest</LangVersion>
     <ErrorReport>prompt</ErrorReport>
     <Prefer32Bit>false</Prefer32Bit>
-    <PostBuildEvent>del "$(TargetDir)Ash Patch Manager.*"
-copy /y "$(SolutionDir)References\$(Configuration)\Ash Patch Manager.dll" "$(TargetDir)Ash Patch Manager.dll"
-copy /Y "$(SolutionDir)References\$(Configuration)\Ash Patch Manager.pdb" "$(TargetDir)Ash Patch Manager.pdb"</PostBuildEvent>
+    <PostBuildEvent>del "$(TargetDir)Ash Patch Manager.*"</PostBuildEvent>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == '1.1 Debug|AnyCPU'">
     <DebugSymbols>true</DebugSymbols>
@@ -172,9 +162,7 @@ copy /Y "$(SolutionDir)References\$(Configuration)\Ash Patch Manager.pdb" "$(Tar
     <LangVersion>latest</LangVersion>
     <ErrorReport>prompt</ErrorReport>
     <Prefer32Bit>false</Prefer32Bit>
-    <PostBuildEvent>del "$(TargetDir)Ash Patch Manager.*"
-copy /y "$(SolutionDir)References\$(Configuration)\Ash Patch Manager.dll" "$(TargetDir)Ash Patch Manager.dll"
-copy /Y "$(SolutionDir)References\$(Configuration)\Ash Patch Manager.pdb" "$(TargetDir)Ash Patch Manager.pdb"</PostBuildEvent>
+    <PostBuildEvent>del "$(TargetDir)Ash Patch Manager.*"</PostBuildEvent>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == '1.6 Debug|AnyCPU'">
     <DebugSymbols>true</DebugSymbols>
