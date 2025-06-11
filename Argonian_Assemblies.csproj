@@ -19,7 +19,7 @@
     <LangVersion>latest</LangVersion>
     <ErrorReport>prompt</ErrorReport>
     <Prefer32Bit>false</Prefer32Bit>
-	<PostBuildEvent>del "$(TargetDir)Ash Patch Manager.*"
+    <PostBuildEvent>del "$(TargetDir)Ash Patch Manager.*"
 copy /Y "$(SolutionDir)References\$(Configuration)\Ash Patch Manager.dll" "$(TargetDir)Ash Patch Manager.dll"
 del "$(TargetDir)*.pdb"</PostBuildEvent>
   </PropertyGroup>
@@ -32,7 +32,7 @@ del "$(TargetDir)*.pdb"</PostBuildEvent>
     <LangVersion>latest</LangVersion>
     <ErrorReport>prompt</ErrorReport>
     <Prefer32Bit>false</Prefer32Bit>
-	<PostBuildEvent>del "$(TargetDir)Ash Patch Manager.*"
+    <PostBuildEvent>del "$(TargetDir)Ash Patch Manager.*"
 copy /Y "$(SolutionDir)References\$(Configuration)\Ash Patch Manager.dll" "$(TargetDir)Ash Patch Manager.dll"
 del "$(TargetDir)*.pdb"</PostBuildEvent>
   </PropertyGroup>
@@ -50,7 +50,7 @@ del "$(TargetDir)*.pdb"</PostBuildEvent>
     </CodeAnalysisRuleSet>
     <CheckForOverflowUnderflow>true</CheckForOverflowUnderflow>
     <Prefer32Bit>false</Prefer32Bit>
-	<PostBuildEvent>del "$(TargetDir)Ash Patch Manager.*"
+    <PostBuildEvent>del "$(TargetDir)Ash Patch Manager.*"
 copy /Y "$(SolutionDir)References\$(Configuration)\Ash Patch Manager.dll" "$(TargetDir)Ash Patch Manager.dll"
 del "$(TargetDir)*.pdb"</PostBuildEvent>
   </PropertyGroup>
@@ -63,7 +63,7 @@ del "$(TargetDir)*.pdb"</PostBuildEvent>
     <LangVersion>latest</LangVersion>
     <ErrorReport>prompt</ErrorReport>
     <Prefer32Bit>false</Prefer32Bit>
-	<PostBuildEvent>del "$(TargetDir)Ash Patch Manager.*"
+    <PostBuildEvent>del "$(TargetDir)Ash Patch Manager.*"
 copy /Y "$(SolutionDir)References\$(Configuration)\Ash Patch Manager.dll" "$(TargetDir)Ash Patch Manager.dll"
 del "$(TargetDir)*.pdb"</PostBuildEvent>
   </PropertyGroup>
@@ -76,7 +76,7 @@ del "$(TargetDir)*.pdb"</PostBuildEvent>
     <LangVersion>latest</LangVersion>
     <ErrorReport>prompt</ErrorReport>
     <Prefer32Bit>false</Prefer32Bit>
-	<PostBuildEvent>del "$(TargetDir)Ash Patch Manager.*"
+    <PostBuildEvent>del "$(TargetDir)Ash Patch Manager.*"
 copy /Y "$(SolutionDir)References\$(Configuration)\Ash Patch Manager.dll" "$(TargetDir)Ash Patch Manager.dll"
 del "$(TargetDir)*.pdb"</PostBuildEvent>
   </PropertyGroup>
@@ -89,7 +89,7 @@ del "$(TargetDir)*.pdb"</PostBuildEvent>
     <LangVersion>latest</LangVersion>
     <ErrorReport>prompt</ErrorReport>
     <Prefer32Bit>false</Prefer32Bit>
-	<PostBuildEvent>del "$(TargetDir)Ash Patch Manager.*"
+    <PostBuildEvent>del "$(TargetDir)Ash Patch Manager.*"
 copy /y "$(SolutionDir)References\$(Configuration)\Ash Patch Manager.dll" "$(TargetDir)Ash Patch Manager.dll"
 copy /Y "$(SolutionDir)References\$(Configuration)\Ash Patch Manager.pdb" "$(TargetDir)Ash Patch Manager.pdb"</PostBuildEvent>
   </PropertyGroup>
@@ -102,7 +102,7 @@ copy /Y "$(SolutionDir)References\$(Configuration)\Ash Patch Manager.pdb" "$(Tar
     <LangVersion>latest</LangVersion>
     <ErrorReport>prompt</ErrorReport>
     <Prefer32Bit>false</Prefer32Bit>
-	<PostBuildEvent>del "$(TargetDir)Ash Patch Manager.*"
+    <PostBuildEvent>del "$(TargetDir)Ash Patch Manager.*"
 copy /y "$(SolutionDir)References\$(Configuration)\Ash Patch Manager.dll" "$(TargetDir)Ash Patch Manager.dll"
 copy /Y "$(SolutionDir)References\$(Configuration)\Ash Patch Manager.pdb" "$(TargetDir)Ash Patch Manager.pdb"</PostBuildEvent>
   </PropertyGroup>
@@ -120,7 +120,7 @@ copy /Y "$(SolutionDir)References\$(Configuration)\Ash Patch Manager.pdb" "$(Tar
     </CodeAnalysisRuleSet>
     <GenerateSerializationAssemblies>Auto</GenerateSerializationAssemblies>
     <Prefer32Bit>false</Prefer32Bit>
-	<PostBuildEvent>del "$(TargetDir)Ash Patch Manager.*"
+    <PostBuildEvent>del "$(TargetDir)Ash Patch Manager.*"
 copy /y "$(SolutionDir)References\$(Configuration)\Ash Patch Manager.dll" "$(TargetDir)Ash Patch Manager.dll"
 copy /Y "$(SolutionDir)References\$(Configuration)\Ash Patch Manager.pdb" "$(TargetDir)Ash Patch Manager.pdb"</PostBuildEvent>
   </PropertyGroup>
@@ -133,7 +133,7 @@ copy /Y "$(SolutionDir)References\$(Configuration)\Ash Patch Manager.pdb" "$(Tar
     <LangVersion>latest</LangVersion>
     <ErrorReport>prompt</ErrorReport>
     <Prefer32Bit>false</Prefer32Bit>
-	<PostBuildEvent>del "$(TargetDir)Ash Patch Manager.*"
+    <PostBuildEvent>del "$(TargetDir)Ash Patch Manager.*"
 copy /y "$(SolutionDir)References\$(Configuration)\Ash Patch Manager.dll" "$(TargetDir)Ash Patch Manager.dll"
 copy /Y "$(SolutionDir)References\$(Configuration)\Ash Patch Manager.pdb" "$(TargetDir)Ash Patch Manager.pdb"</PostBuildEvent>
   </PropertyGroup>
@@ -146,9 +146,18 @@ copy /Y "$(SolutionDir)References\$(Configuration)\Ash Patch Manager.pdb" "$(Tar
     <LangVersion>latest</LangVersion>
     <ErrorReport>prompt</ErrorReport>
     <Prefer32Bit>false</Prefer32Bit>
-	<PostBuildEvent>del "$(TargetDir)Ash Patch Manager.*"
+    <PostBuildEvent>del "$(TargetDir)Ash Patch Manager.*"
 copy /y "$(SolutionDir)References\$(Configuration)\Ash Patch Manager.dll" "$(TargetDir)Ash Patch Manager.dll"
 copy /Y "$(SolutionDir)References\$(Configuration)\Ash Patch Manager.pdb" "$(TargetDir)Ash Patch Manager.pdb"</PostBuildEvent>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == '1.6 Debug|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\1.6 Debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;RW1_5</DefineConstants>
+    <DebugType>portable</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <LangVersion>latest</LangVersion>
+    <ErrorReport>prompt</ErrorReport>
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Argonian_Assemblies.cs" />
