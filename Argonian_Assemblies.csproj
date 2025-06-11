@@ -10,9 +10,35 @@
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <Deterministic>true</Deterministic>
   </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == '1.6 Release|AnyCPU'">
+    <OutputPath>..\..\..\..\Rimworld Mods\LocalMods\Argonians of Blackmarsh\1.6\Assemblies\</OutputPath>
+    <DefineConstants>RW1_6</DefineConstants>
+    <CheckForOverflowUnderflow>true</CheckForOverflowUnderflow>
+    <Optimize>true</Optimize>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <LangVersion>latest</LangVersion>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+    <PostBuildEvent>del "$(TargetDir)Ash Patch Manager.*"
+copy /Y "$(SolutionDir)References\$(Configuration)\Ash Patch Manager.dll" "$(TargetDir)Ash Patch Manager.dll"
+del "$(TargetDir)*.pdb"</PostBuildEvent>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == '1.6 Debug|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>..\..\..\..\Rimworld Mods\LocalMods\Argonians of Blackmarsh\1.6\Assemblies\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;RW1_6</DefineConstants>
+    <DebugType>portable</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <LangVersion>latest</LangVersion>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+    <PostBuildEvent>del "$(TargetDir)Ash Patch Manager.*"
+copy /y "$(SolutionDir)References\$(Configuration)\Ash Patch Manager.dll" "$(TargetDir)Ash Patch Manager.dll"
+copy /Y "$(SolutionDir)References\$(Configuration)\Ash Patch Manager.pdb" "$(TargetDir)Ash Patch Manager.pdb"</PostBuildEvent>
+  </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == '1.5 Release|AnyCPU'">
     <OutputPath>..\..\..\..\Rimworld Mods\LocalMods\Argonians of Blackmarsh\1.5\Assemblies\</OutputPath>
-    <DefineConstants>RW1_5</DefineConstants>
+    <DefineConstants>RW1_5;RWPre1_6</DefineConstants>
     <CheckForOverflowUnderflow>true</CheckForOverflowUnderflow>
     <Optimize>true</Optimize>
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -83,7 +109,7 @@ del "$(TargetDir)*.pdb"</PostBuildEvent>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == '1.5 Debug|AnyCPU'">
     <DebugSymbols>true</DebugSymbols>
     <OutputPath>..\..\..\..\Rimworld Mods\LocalMods\Argonians of Blackmarsh\1.5\Assemblies\</OutputPath>
-    <DefineConstants>TRACE;DEBUG;RW1_5</DefineConstants>
+    <DefineConstants>TRACE;DEBUG;RW1_5;RWPre1_6</DefineConstants>
     <DebugType>portable</DebugType>
     <PlatformTarget>AnyCPU</PlatformTarget>
     <LangVersion>latest</LangVersion>
@@ -152,7 +178,7 @@ copy /Y "$(SolutionDir)References\$(Configuration)\Ash Patch Manager.pdb" "$(Tar
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == '1.6 Debug|AnyCPU'">
     <DebugSymbols>true</DebugSymbols>
-    <OutputPath>bin\1.6 Debug\</OutputPath>
+    <OutputPath>..\..\..\..\Rimworld Mods\LocalMods\Argonians of Blackmarsh\1.6\Assembies\</OutputPath>
     <DefineConstants>TRACE;DEBUG;RW1_5</DefineConstants>
     <DebugType>portable</DebugType>
     <PlatformTarget>AnyCPU</PlatformTarget>
