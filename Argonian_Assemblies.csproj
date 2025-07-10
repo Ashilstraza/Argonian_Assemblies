@@ -164,15 +164,6 @@ copy /Y "$(SolutionDir)References\$(Configuration)\Ash Patch Manager.pdb" "$(Tar
     <Prefer32Bit>false</Prefer32Bit>
     <PostBuildEvent>del "$(TargetDir)Ash Patch Manager.*"</PostBuildEvent>
   </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == '1.6 Debug|AnyCPU'">
-    <DebugSymbols>true</DebugSymbols>
-    <OutputPath>..\..\..\..\Rimworld Mods\LocalMods\Argonians of Blackmarsh\1.6\Assembies\</OutputPath>
-    <DefineConstants>TRACE;DEBUG;RW1_5</DefineConstants>
-    <DebugType>portable</DebugType>
-    <PlatformTarget>AnyCPU</PlatformTarget>
-    <LangVersion>latest</LangVersion>
-    <ErrorReport>prompt</ErrorReport>
-  </PropertyGroup>
   <ItemGroup>
     <Compile Include="Argonian_Assemblies.cs" />
     <Compile Include="Argo_DefOf.cs" />
