@@ -76,7 +76,8 @@ del "$(TargetDir)*.pdb"</PostBuildEvent>
     </CodeAnalysisRuleSet>
     <CheckForOverflowUnderflow>true</CheckForOverflowUnderflow>
     <Prefer32Bit>false</Prefer32Bit>
-    <PostBuildEvent>del "$(TargetDir)Ash Patch Manager.*"</PostBuildEvent>
+    <PostBuildEvent>del "$(TargetDir)Ash Patch Manager.*"
+del "$(TargetDir)*.pdb"</PostBuildEvent>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == '1.2 Release|AnyCPU'">
     <OutputPath>..\..\..\..\Rimworld Mods\LocalMods\Argonians of Blackmarsh\1.2\Assemblies\</OutputPath>
@@ -87,7 +88,8 @@ del "$(TargetDir)*.pdb"</PostBuildEvent>
     <LangVersion>latest</LangVersion>
     <ErrorReport>prompt</ErrorReport>
     <Prefer32Bit>false</Prefer32Bit>
-    <PostBuildEvent>del "$(TargetDir)Ash Patch Manager.*"</PostBuildEvent>
+    <PostBuildEvent>del "$(TargetDir)Ash Patch Manager.*"
+del "$(TargetDir)*.pdb"</PostBuildEvent>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == '1.1 Release|AnyCPU'">
     <OutputPath>..\..\..\..\Rimworld Mods\LocalMods\Argonians of Blackmarsh\1.1\Assemblies\</OutputPath>
@@ -98,7 +100,8 @@ del "$(TargetDir)*.pdb"</PostBuildEvent>
     <LangVersion>latest</LangVersion>
     <ErrorReport>prompt</ErrorReport>
     <Prefer32Bit>false</Prefer32Bit>
-    <PostBuildEvent>del "$(TargetDir)Ash Patch Manager.*"</PostBuildEvent>
+    <PostBuildEvent>del "$(TargetDir)Ash Patch Manager.*"
+del "$(TargetDir)*.pdb"</PostBuildEvent>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == '1.5 Debug|AnyCPU'">
     <DebugSymbols>true</DebugSymbols>
